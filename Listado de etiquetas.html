@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lista de etiquetas</title>
+<style type="text/css">
+@media screen{
+}
+body header {
+    height: 400px;
+    background-color: #0D2349;
+    padding-top: 150px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body header, body nav, body main ,body footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    background-color: #FF9964;
+    height: 80px;
+    color: #FFFFFF;
+}
+body main {
+    background-color: #F0C192;
+    padding: 20px;
+    height: autopx;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    width: 800px;
+    background-color: #FFF8E4;
+    margin-top: 20px;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: auto;
+}
+main section h2 {
+    margin-bottom: 15px;
+    background-color: undefined;
+}
+body footer {
+    background-color: #0D2349;
+    height: 100px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+    top: auto;
+    padding-top: 0px;
+    font-size: 72px;
+}
+body footer h6 {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF7EA;
+    padding-top: 40px;
+}
+section ul  {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    list-style-type: square;
+}
+section ol {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+section ol {
+}
+#lista_1 li   {
+    list-style-type: lower-greek;
+}
+.lista_2 li {
+    list-style-image: url(Ico-vineta.png);
+}
+#menu {
+    padding: 30px;
+}
+#menu li {
+    padding: 30;
+    width: 150px;
+    display: inline-block;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Lista en HTML</h1>
+  <p>&nbsp;</p>
+&nbsp;</header>
+<nav>
+  <ul id="menu">
+    <li><a href="mi_primera_página.html">Formatos Textos</a></li>
+    <li>Enlace 2</li>
+    <li>Enlace 3</li>
+    <li>Enlace 4</li>
+    <li>Enlace 5</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Lista Desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit impedit, non rem corporis libero inventore iste rerum itaque enim, dolores? Possimus, voluptas, quia. In suscipit, labore tempora ut ipsum tenetur aspernatur vitae? Sequi quisquam similique illo unde corporis, debitis, aspernatur error animi ullam officia dicta repellat consectetur architecto neque fugiat assumenda provident ipsa labore qui voluptatibus omnis, quidem! Laborum ab libero ipsa autem, illo, animi beatae architecto minus velit assumenda, unde itaque nisi natus sed! Veniam aliquam eligendi doloremque, eaque placeat ipsam accusantium numquam temporibus officiis omnis ut saepe sint mollitia consequatur, laboriosam, harum. Unde accusamus molestias ratione, iste aspernatur.</p>
+	<ul class="lista_2">
+		<li>Girasoles</li>
+		<li>Gardenias</li>
+		<li>Hortensias</li>
+		<li>Rosas</li>
+		<li>Tulipanes</li>
+    </ul>
+    &nbsp;</section>
+<section>
+  <h2>Lista Ordenada</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nam, recusandae earum vitae temporibus impedit voluptas quos blanditiis quisquam aut obcaecati qui exercitationem numquam libero accusamus, quo cumque labore accusantium consectetur, quidem, nostrum distinctio magni! Aut perspiciatis officia perferendis officiis consectetur nisi odit, sit, soluta vitae eius nihil inventore minus.</p>
+    <ol>
+      <li>Andrea Cabrera</li>
+      <li>Hugo López</li>
+      <li>Ismael Millan</li>
+      <li>Octavio Mora</li>
+      <li>Sebastian Torres</li>
+    </ol>
+  &nbsp;</section>
+  <section>
+    <h2>Lista Mixta</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit impedit, non rem corporis libero inventore iste rerum itaque enim, dolores? Possimus, voluptas, quia. In suscipit, labore tempora ut ipsum tenetur aspernatur vitae? Sequi quisquam similique illo unde corporis, debitis, aspernatur error animi ullam officia dicta repellat consectetur architecto neque fugiat assumenda provident ipsa labore qui voluptatibus omnis, quidem! Laborum ab libero ipsa autem, illo, animi beatae architecto minus velit assumenda, unde itaque nisi natus sed! Veniam aliquam eligendi doloremque, eaque placeat ipsam accusantium numquam temporibus officiis omnis ut saepe sint mollitia consequatur, laboriosam, harum. Unde accusamus molestias ratione, iste aspernatur.</p>
+	  <ol>
+		<li>Francia</li>
+		<li>Italia</li>
+		<li>España</li>
+		<li>Estados Unidos</li>
+		<li>México</li>
+		  <ul>
+		<li>Puebla</li>
+		<li>Monterrey</li>
+		<li>Veracruz</li>
+          </ul>
+		  
+    </ol>
+    &nbsp;</section>
+  <section>
+    <h2>Lista Modificada Con Una Regla De Identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nam, recusandae earum vitae temporibus impedit voluptas quos blanditiis quisquam aut obcaecati qui exercitationem numquam libero accusamus, quo cumque labore accusantium consectetur, quidem, nostrum distinctio magni! Aut perspiciatis officia perferendis officiis consectetur nisi odit, sit, soluta vitae eius nihil inventore minus.</p>
+    <ul id="lista_1">
+      <li>Audi</li>
+      <li>Ford </li>
+      <li>Kia</li>
+      <li>Mazda </li>
+      <li>Renault </li>
+      <li>Seat</li>
+      <li>WV </li>
+    </ul>
+  </section>
+  <section>
+    <h2>Lista Desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit impedit, non rem corporis libero inventore iste rerum itaque enim, dolores? Possimus, voluptas, quia. In suscipit, labore tempora ut ipsum tenetur aspernatur vitae? Sequi quisquam similique illo unde corporis, debitis, aspernatur error animi ullam officia dicta repellat consectetur architecto neque fugiat assumenda provident ipsa labore qui voluptatibus omnis, quidem! Laborum ab libero ipsa autem, illo, animi beatae architecto minus velit assumenda, unde itaque nisi natus sed! Veniam aliquam eligendi doloremque, eaque placeat ipsam accusantium numquam temporibus officiis omnis ut saepe sint mollitia consequatur, laboriosam, harum. Unde accusamus molestias ratione, iste aspernatur.</p>
+    <ul class="lista_2">
+      <li>Girasoles</li>
+      <li>Gardenias</li>
+      <li>Hortensias</li>
+      <li>Rosas</li>
+      <li>Tulipanes</li>
+    </ul>
+  &nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Minerva Andrea Torres Zaragoza</h6>
+</footer>
+</body>
+</html>

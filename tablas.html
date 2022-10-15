@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+&nbsp;</header>
+<nav>
+  <p>Talleres del mes patrio</p>
+  <p>&nbsp;</p>
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde codigo </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nostrum ab unde reprehenderit minus. Iste aperiam, reiciendis esse sed vel neque accusamus quasi maxime ex! Explicabo asperiores voluptate suscipit sed quae illum vero hic doloremque laudantium, quisquam repudiandae dolor porro, provident unde voluptatem nostrum nisi at voluptatum quaerat. Quibusdam minima, quisquam commodi quae, saepe et. Officiis expedita impedit ea animi!</p>
+   <table border="1" id="tabla_1">
+	  <thead>
+		  <tr>
+		  <th>Nombre</th>
+		  <th>Taller</th>
+		  <th>Email</th>
+		  <th>Cuota de taller</th>
+		  </tr>
+	  </thead>
+	 <tbody>
+	   <tr>
+		 <td>Juan Huerta</td>
+		 <td>Tipografía</td>
+		 <td>juan_09@gmail.com</td>
+		 <td>$320</td>
+	   </tr>
+		 <tr>
+		 	<td>Hugo Lopez</td>
+		 	<td>Fotografía</td>
+		 	<td>Lopez_h92@gmail.com</td>
+		 	<td>$430</td>
+		 </tr>
+		 <tr>
+		 	<td>Ariadna Rosendo</td>
+		 	<td>Pintura</td>
+		 	<td>torre.ariadna07@gmail.com</td>
+		 	<td>$380</td>
+		 </tr>
+		 <tr>
+		 	<td>Abraham Torres</td>
+		 	<td>Ilustración</td>
+		 	<td>torresa_2009@gmail.com</td>
+		 	<td>$450</td>
+		 </tr>
+		 <tr>
+		 	<td>Carlos Francisco</td>
+		 	<td>Comic e historieta</td>
+		 	<td>carlitos2809@gmail.com</td>
+		 	<td>$1970</td>
+		 </tr>
+		 
+	   </tbody> 
+	 <tfoot>
+	   <tr>
+		 	<td></td>
+		 	<td></td>
+		 	<td>Total</td>
+		 	<td>$360</td>
+		 </tr>
+	   </tfoot> 
+   </table>
+</section>
+  <section>
+    <h2>Tabla con estilo css y uso de rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nostrum ab unde reprehenderit minus. Iste aperiam, reiciendis esse sed vel neque accusamus quasi maxime ex! Explicabo asperiores voluptate suscipit sed quae illum vero hic doloremque laudantium, quisquam repudiandae dolor porro, provident unde voluptatem nostrum nisi at voluptatum quaerat. Quibusdam minima, quisquam commodi quae, saepe et. Officiis expedita impedit ea animi!</p>
+<p>&nbsp;</p>
+<table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juan Huerta</td>
+          <td>Tipografía</td>
+          <td>juan_09@gmail.com</td>
+          <td>$320</td>
+        </tr>
+        <tr>
+          <td>Hugo Lopez</td>
+          <td>Fotografía</td>
+          <td>Lopez_h92@gmail.com</td>
+          <td>$430</td>
+        </tr>
+        <tr>
+          <td>Ariadna Torres</td>
+          <td>Pintura</td>
+          <td>torre.ariadna07@gmail.com</td>
+          <td>$380</td>
+        </tr>
+        <tr>
+          <td>Abraham Torres</td>
+          <td>Ilustración</td>
+          <td>torresa_2009@gmail.com</td>
+          <td>$450</td>
+        </tr>
+        <tr>
+          <td>Carlos Francisco</td>
+          <td>Comic e historieta</td>
+          <td>carlitos2809@gmail.com</td>
+          <td>$1970</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" style="background-color: darkgreen; font-weight:bold; color: yellowgreen">Total</td>
+          <td>$360</td>
+        </tr>
+      </tfoot>
+    </table>
+  &nbsp;</section>
+  <section>
+    <h2>Tabla con cebras en horizontal o fila</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nostrum ab unde reprehenderit minus. Iste aperiam, reiciendis esse sed vel neque accusamus quasi maxime ex! Explicabo asperiores voluptate suscipit sed quae illum vero hic doloremque laudantium, quisquam repudiandae dolor porro, provident unde voluptatem nostrum nisi at voluptatum quaerat. Quibusdam minima, quisquam commodi quae, saepe et. Officiis expedita impedit ea animi! </p>
+    <table width="100%" border="1" cellspacing="5" id="tabla3">
+     <thead>
+		<tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col"> Correo elctronico</th>
+          <th scope="col"> Edad</th>
+          <th scope="col">Telefono </th>
+          <th scope="col">Deporte </th>
+        </tr>
+	  </thead>	
+		<tbody>
+        <tr>
+          <td> José Juan Aguilar</td>
+          <td>jja_09@gmail.com</td>
+          <td>4</td>
+          <td>2223648945</td>
+          <td>Futbol</td>
+        </tr>
+        <tr>
+          <td>Maria Jose Huerta </td>
+          <td>mar_jos56@gmail.com</td>
+          <td>8</td>
+          <td>2224689012</td>
+          <td>Ballet</td>
+        </tr>
+        <tr>
+          <td>Mario Viveros </td>
+          <td>mario.809@gmail.com</td>
+          <td>5</td>
+          <td>2226891045</td>
+          <td>Basquetbol</td>
+        </tr>
+        <tr>
+          <td>Samuel Torres </td>
+          <td>sam349@gmail.com</td>
+          <td>9</td>
+          <td>2229564534</td>
+          <td>Futbol</td>
+        </tr>
+      </tbody>
+    </table>
+&nbsp;</section>
+  <section>
+    <h2>Tabla con cebras en vertical o columna</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nostrum ab unde reprehenderit minus. Iste aperiam, reiciendis esse sed vel neque accusamus quasi maxime ex! Explicabo asperiores voluptate suscipit sed quae illum vero hic doloremque laudantium, quisquam repudiandae dolor porro, provident unde voluptatem nostrum nisi at voluptatum quaerat. Quibusdam minima, quisquam commodi quae, saepe et. Officiis expedita impedit ea animi!</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla4">
+      <thead>
+        <tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col"> Correo elctronico</th>
+          <th scope="col"> Edad</th>
+          <th scope="col">Telefono </th>
+          <th scope="col">Deporte </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> José Juan Aguilar</td>
+          <td>jja_09@gmail.com</td>
+          <td>4</td>
+          <td>2223648945</td>
+          <td>Futbol</td>
+        </tr>
+        <tr>
+          <td>Maria Jose Huerta </td>
+          <td>mar_jos56@gmail.com</td>
+          <td>8</td>
+          <td>2224689012</td>
+          <td>Ballet</td>
+        </tr>
+        <tr>
+          <td>Mario Viveros </td>
+          <td>mario.809@gmail.com</td>
+          <td>5</td>
+          <td>2226891045</td>
+          <td>Basquetbol</td>
+        </tr>
+        <tr>
+          <td>Samuel Torres </td>
+          <td>sam349@gmail.com</td>
+          <td>9</td>
+          <td>2229564534</td>
+          <td>Futbol</td>
+        </tr>
+      </tbody>
+    </table>
+  &nbsp;</section>
+  &nbsp;</main>
+<footer>
+  <h6>Elaborado por Minerva Andrea Torres Zaragoza</h6>
+&nbsp;</footer>
+</body>
+</html>
